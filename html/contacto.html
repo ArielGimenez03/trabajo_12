@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="./estilos/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <form class="formulario">
+            <div class="mb-2">
+                <label for="nombreInput" class="form-label">Nombre</label>
+                <input  id="nombreInput" class="form-control" type="text" placeholder="Escribe tu nombre...">  
+            </div>
+            <div class="mb-2">
+                <label for="apellidoInput" class="form-label">Apellido</label>
+                <input id="apellidoInput" class="form-control" type="text" placeholder="Escribe tu apellido...">
+            </div> 
+            <div class="mb-2">
+                <label for="numInput" class="form-label">Numero de contacto</label>
+                <input id="numInput" class="form-control" type="text" placeholder="Ingresa tu número de celular..."> 
+            </div>
+            <div class="mb-2">
+                <label for="emailInput" class="form-label">Email</label>
+                <input id="emailInput" class="form-control" type="email" placeholder="Escribe tu email de contacto...">
+            </div>
+            <div class="mb-2">
+                <label for="passInput" class="form-label">Contraseña</label>
+                <input id="passInput" class="form-control" type="password"
+                placeholder="Escribe una contraseña segura...">
+            </div>
+            <div class="mb-2">
+                <label for="comentarioId" class="form-label">Comentarios y/o dudas.</label>
+                <textarea id="comentarioId" class="form-control"></textarea>
+            </div>
+            <div class="mb-2">
+                <label for="archivoInput"></label>
+                <input id="archivoInput" type="file" class="form-control">
+            </div>
+            <div>
+                <input class="btn btn-primary" type="submit" value="Enviar">
+            </div>
+        </form>
+    </div>
+</body>
+</html>

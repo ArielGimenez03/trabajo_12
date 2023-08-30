@@ -1,0 +1,145 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* body horarios */
+.body-h{
+    background-color:beige;
+}
+/* pagina principal */
+.body-p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2{
+    padding: 10px;
+    margin: 10px;
+    border: solid black;
+    text-align: center;
+}
+h3{
+    padding: 10px;
+    margin: 10px;
+    border: solid black;
+    text-align: left;
+}
+.imagennn{
+    display: flex;
+    justify-content: center;
+}
+.img-b{
+    width: 200px;
+    height: 250px;
+}
+.imagennn-2{
+    display: grid;
+    justify-content: center;
+    padding: 10px;
+}
+.img-b-2{
+    width: 300px;
+    height: 250px;
+}
+.imagennn-3{
+    text-align: center;
+}
+.imagennn-4{
+    text-align: center;
+}
+.imagennn-5{
+    text-align: center;
+}
+.parrafo-1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    text-align: left;
+    padding:10px;
+}
+.parrafo-2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    text-align: left;
+    padding: 10px;
+}
+.parrafo-3{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    text-align: left;
+    padding: 10px;
+}
+.parrafo-4{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    text-align: left;
+    padding: 10px;
+}
+/* estilo de horarios */
+.h1-horarios{
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+/* estilo de header */
+.Header{
+    width: 100%;
+    background-color:rgb(139, 139, 122);
+}
+.H1{
+    color: white;
+    text-align: center;
+}
+.IMG{
+    width: 200px;
+    padding-left: 25px;
+    padding-bottom: 25px;
+}
+.ul{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    background-color: rgb(61, 61, 48);
+    list-style: none;
+}
+.ul li {
+    width: 100%;
+    padding: 100px;
+    display: inline;
+}
+.ul a{
+    color:white;
+    text-decoration: none;
+}
+/* estilo footer */
+.Footer{ 
+    width: 100%;
+    height: 220px;
+    background-color: rgb(139, 139, 122);
+}
+.fot{
+    margin: 0px;
+    padding-top: 20px;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(61, 61, 48);
+    list-style: none;
+}
+.fot li{
+    margin: 0 auto;
+    width: 100%;
+    padding-left: 150px;
+    display: inline;
+    justify-content: center;
+}
+.fot li a{
+    color: white;
+    text-decoration: none;
+}
+p{
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding-left: 10px;
+    padding-top: 50px;
+}
+/* estilo de formulario */
